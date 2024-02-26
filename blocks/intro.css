@@ -1,0 +1,51 @@
+.intro {
+  max-width: 1017px;
+  margin: auto 115px auto 148px;
+}
+.intro__title {
+  margin: 92px auto 40px;
+  font-size: 3.3rem;
+  line-height: 1;
+  font-family: "Inter", "sans serif";
+}
+.intro__text {
+  max-width: 722px;
+  margin: 0;
+  font-size: 1.5rem;
+  font-family: "Inter", "sans serif";
+}
+.intro__author {
+  margin: 0;
+  font-size: 1.5rem;
+  line-height: 1.4;
+  max-width: 720px;
+  text-align: end;
+  font-family: "Inter", "sans serif";
+}
+.intro__subtext {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 42px 0 0;
+  max-width: 720px;
+  font-family: "Inter", "sans serif";
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .intro {
+    max-width: 720px;
+    margin: auto auto 64px;
+  }
+  .intro__title {
+    margin: 55px auto 15px;
+  }
+}
+@media screen and (max-width: 767px) {
+  .intro {
+    max-width: 288px;
+    margin: auto;
+  }
+  .intro__title {
+    margin: 44px auto 9px;
+    font-size: 2rem;
+  }
+}

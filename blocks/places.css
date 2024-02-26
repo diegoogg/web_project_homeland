@@ -1,0 +1,128 @@
+.places {
+  max-width: 984px;
+  margin: 0 auto;
+}
+.places__grid {
+  margin: auto;
+  display: grid;
+  column-gap: 40px;
+  row-gap: 48px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-areas:
+    "title author"
+    ". paragraph"
+    ". paragraph"
+    "link .";
+}
+.places__title {
+  max-width: 460px;
+  font-size: 4.5rem;
+  line-height: 1;
+  grid-area: title;
+  font-weight: 900;
+  font-family: "Inter", "sans serif";
+}
+.places__name-author {
+  max-width: 456px;
+  grid-area: author;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  font-family: "Inter", "sans serif";
+}
+.places__artist {
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1;
+  margin: 0;
+  color: #aaaaaa;
+  letter-spacing: 1.2px;
+}
+.places__artist-name {
+  font-weight: 400;
+  font-size: 1.1rem;
+  line-height: 1.2;
+  margin: 8px 0px 0px;
+}
+
+.places__image {
+  width: 100%;
+  max-width: 460px;
+}
+.places__paragraph {
+  font-size: 1.1rem;
+  line-height: 1.5;
+  grid-area: paragraph;
+  font-family: "Inter", "sans serif";
+}
+.places__paragraph-description {
+  max-width: 484px;
+  margin: 0 auto 25px;
+  font-family: "Inter", "sans serif";
+}
+.places__link {
+  background-color: #0278fe;
+  width: 355px;
+  height: 48px;
+  border-radius: 4px;
+  border: none;
+  grid-area: link;
+  text-decoration: none;
+  color: #ffffff;
+  line-height: 1;
+  font-size: 1.1rem;
+  padding: 13px 20px;
+  font-family: "Inter", "sans serif";
+}
+.places__link:hover {
+  background-color: #0063d2;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .places__grid {
+    column-gap: 28px;
+    margin: auto 24px auto;
+  }
+  .places__title {
+    font-size: 2.6rem;
+  }
+  .places__paragraph {
+    font-size: 1rem;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .places__grid {
+    grid-template-columns: 1fr;
+    max-width: 320px;
+    grid-template-areas:
+      "title"
+      "author"
+      "."
+      "paragraph"
+      "paragraph"
+      "link";
+    row-gap: 30px;
+    margin-bottom: 36px;
+    justify-items: center;
+  }
+  .places__name-author {
+    width: 288px;
+    margin: 0 auto;
+  }
+  .places__title {
+    margin: 0 auto;
+    width: 288px;
+    font-size: 2rem;
+  }
+  .places__paragraph {
+    margin: 0 auto;
+    font-size: 1rem;
+    width: 288px;
+  }
+  .places__link {
+    font-size: 0.8rem;
+    width: 288px;
+    margin: 0 auto;
+  }
+}
