@@ -16,7 +16,7 @@
 }
 .places__title {
   max-width: 460px;
-  font-size: 4.5rem;
+  font-size: 72px;
   line-height: 1;
   grid-area: title;
   font-weight: 900;
@@ -32,7 +32,7 @@
 }
 .places__artist {
   font-weight: 400;
-  font-size: 0.75rem;
+  font-size: 12px;
   line-height: 1;
   margin: 0;
   color: #aaaaaa;
@@ -40,7 +40,7 @@
 }
 .places__artist-name {
   font-weight: 400;
-  font-size: 1.1rem;
+  font-size: 18px;
   line-height: 1.2;
   margin: 8px 0px 0px;
 }
@@ -50,7 +50,7 @@
   max-width: 460px;
 }
 .places__paragraph {
-  font-size: 1.1rem;
+  font-size: 18px;
   line-height: 1.5;
   grid-area: paragraph;
   font-family: "Inter", "sans serif";
@@ -70,7 +70,7 @@
   text-decoration: none;
   color: #ffffff;
   line-height: 1;
-  font-size: 1.1rem;
+  font-size: 18px;
   padding: 13px 20px;
   font-family: "Inter", "sans serif";
 }
@@ -84,10 +84,10 @@
     margin: auto 24px auto;
   }
   .places__title {
-    font-size: 2.6rem;
+    font-size: 42px;
   }
   .places__paragraph {
-    font-size: 1rem;
+    font-size: 16px;
   }
 }
 
@@ -113,15 +113,15 @@
   .places__title {
     margin: 0 auto;
     width: 288px;
-    font-size: 2rem;
+    font-size: 32px;
   }
   .places__paragraph {
     margin: 0 auto;
-    font-size: 1rem;
+    font-size: 16px;
     width: 288px;
   }
   .places__link {
-    font-size: 0.8rem;
+    font-size: 014px;
     width: 288px;
     margin: 0 auto;
   }

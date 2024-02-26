@@ -25,7 +25,7 @@
 .cover__title {
   font-family: "Inter", "sans serif";
   margin: 0px auto auto;
-  font-size: 4.5rem;
+  font-size: 72px;
   line-height: 1;
 }
 .cover__subtitle {
@@ -33,7 +33,7 @@
   text-align: center;
   margin: 0px auto auto;
   max-width: 280px;
-  font-size: 1.1rem;
+  font-size: 18px;
   line-height: 1.2;
 }
 .cover__information {
@@ -56,7 +56,7 @@
 .cover__compras-item {
   text-decoration: none;
   color: #ffffff;
-  font-size: 1.1rem;
+  font-size: 18px;
   line-height: 1.2;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px) {
@@ -70,10 +70,10 @@
     height: 163px;
   }
   .cover__title {
-    font-size: 2rem;
+    font-size: 32px;
   }
   .cover__subtitle {
-    font-size: 0.8rem;
+    font-size: 14px;
   }
   .cover__information {
     margin-bottom: 16px;

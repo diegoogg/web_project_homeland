@@ -4,26 +4,26 @@
 }
 .intro__title {
   margin: 92px auto 40px;
-  font-size: 3.3rem;
+  font-size: 54px;
   line-height: 1;
   font-family: "Inter", "sans serif";
 }
 .intro__text {
   max-width: 722px;
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 24px;
   font-family: "Inter", "sans serif";
 }
 .intro__author {
   margin: 0;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.4;
   max-width: 720px;
   text-align: end;
   font-family: "Inter", "sans serif";
 }
 .intro__subtext {
-  font-size: 1rem;
+  font-size: 16px;
   line-height: 1.6;
   margin: 42px 0 0;
   max-width: 720px;
@@ -46,6 +46,6 @@
   }
   .intro__title {
     margin: 44px auto 9px;
-    font-size: 2rem;
+    font-size: 32px;
   }
 }
