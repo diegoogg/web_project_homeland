@@ -63,7 +63,6 @@
 .places__link {
   background-color: #0278fe;
   width: 355px;
-  height: 48px;
   border-radius: 4px;
   border: none;
   grid-area: link;
@@ -88,6 +87,10 @@
   }
   .places__paragraph {
     font-size: 16px;
+  }
+  .places__link {
+    display: block;
+    width: 315px;
   }
 }
 
